@@ -1,0 +1,63 @@
+.html,
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: skyblue;
+    overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    width: 18%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+    vertical-align: middle;
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+#flipped {
+    transform: rotate(180deg);
+    text-wrap: wrap;
+}
+
+.content {
+    margin: 1%;
+    line-height: 15pt;
+}
+
+.content h1 {
+    font-size: 32px;
+    color: cadetblue;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+.title {
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+    margin: 0px;
+}
