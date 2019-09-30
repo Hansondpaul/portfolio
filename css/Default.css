@@ -3,10 +3,14 @@ body {
     margin: 0;
 }
 
+header{
+    background-color: deepskyblue;
+}
 .navbar {
     width: 100%;
     background-color: skyblue;
     overflow: auto;
+    margin-top: 0.5%;
 }
 
 /* Navigation links */
@@ -16,8 +20,8 @@ body {
     padding-top: 16px;
     text-decoration: none;
     color: black;
-    font-size: 17px;
-    width: 18%;
+    font-size: 15px;
+    width: 15%;
     /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center;
     /* If you want the text to be centered */
@@ -58,7 +62,6 @@ body {
     vertical-align: middle;
     float: left;
     font-size: 25px;
-    padding: 12px;
-    margin: 0px;
+    padding: 10px;
 }
 
