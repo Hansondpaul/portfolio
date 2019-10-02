@@ -6,6 +6,7 @@ body {
 header{
     background-color: deepskyblue;
 }
+
 .navbar {
     width: 100%;
     background-color: skyblue;
@@ -44,6 +45,7 @@ header{
     text-wrap: wrap;
 }
 
+/* The Content of the page, outside of the navbar, has a margin.*/
 .content {
     margin: 1%;
     line-height: 15pt;
@@ -56,6 +58,11 @@ header{
     padding-top: 1%;
 }
 
+.content h2{
+    font-size: 20px;
+    color: lightseagreen;
+    
+}
 
 .title {
     text-align: center;
