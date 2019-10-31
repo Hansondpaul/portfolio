@@ -125,6 +125,8 @@ function setup() {
     background(0);
     frameRate(5);
     textSize(32);
+    var canvas = createCanvas(500,500)
+    canvas.parent('dice')
     
     //variable initialization//
     count = 4;
